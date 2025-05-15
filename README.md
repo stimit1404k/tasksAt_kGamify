@@ -7,13 +7,13 @@ Hi! I'm **Stimit Keluskar**, currently working as a **Mobile App Development Int
 ## 📅 Internship Duration
 
 **Start Date:** Feb 2025  
-**End Date:** ongoing..
+**End Date:** ongoing...
 
 ---
 
 ## 🧩 Tasks & Contributions
 
-### ✅ Task 1: Implementing a Shareable Card Feature for Social Media
+### ✅ **Task 1: Implementing a Shareable Card Feature for Social Media**
 
 **🗓️ Date:** April 16, 2025
 
@@ -39,12 +39,40 @@ Successfully created a shareable card that works seamlessly across multiple plat
 
 ---
 
+### ✅ **Task 2: Implementing Avatar Customization with DiceBear API**
+
+**🗓️ Date:** May 14, 2025
+
+**Objective:**  
+Build an interactive avatar customization feature using the **DiceBear API** in a Flutter application, enabling users to randomly generate avatars or customize them with initials.
+
+**How I Handled It:**
+
+- ✅ Integrated the `dice_bear` package to fetch avatars based on random seeds or user-defined initials.
+- ✅ Created a `Dropdown` for users to select different avatar styles.
+- ✅ Added a `TextField` for entering initials, which dynamically updates the avatar if "Initials" is selected.
+- ✅ Designed a "Randomize Your Avatar" button to fetch new avatars with each click.
+- ✅ Implemented smooth UI transitions and state management using `StatefulWidget`.
+
+**Technologies & Packages Used:**
+
+- `Flutter`
+- `dice_bear` — for avatar generation
+- `Material UI` for styling and layout
+
+**Outcome:**  
+Delivered a fully interactive avatar customization screen with options for both randomly generated avatars and personalized initials, enhancing the user experience.
+
+---
+
 ## 📚 Learnings So Far
 
 - Widget-to-image conversion in Flutter
 - Using native sharing features with `share_plus`
 - Managing Flutter dependencies and stateful widgets
 - Structuring clean, reusable code
+- Integrating third-party APIs like **DiceBear** for avatar generation
+- Building dynamic UIs with `Dropdown` and `TextField`
 
 ---
 
@@ -52,6 +80,10 @@ Successfully created a shareable card that works seamlessly across multiple plat
 
 - Flutter (Dart)
 - Visual Studio Code
+- DiceBear API
+- path_provider
+- share_plus
+- Material UI
 
 ---
 
