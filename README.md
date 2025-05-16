@@ -34,6 +34,8 @@ Design and implement a card component within a Flutter app that can be shared as
 - `path_provider`
 - `share_plus`
 
+> 📝 **Note:** Don't forget to run `flutter pub get` after adding these dependencies!
+
 **Outcome:**  
 Successfully created a shareable card that works seamlessly across multiple platforms, enhancing the social reach and user engagement of the app.
 
@@ -60,8 +62,38 @@ Build an interactive avatar customization feature using the **DiceBear API** in 
 - `dice_bear` — for avatar generation
 - `Material UI` for styling and layout
 
+> 📝 **Note:** Don't forget to run `flutter pub get` after adding these dependencies!
+
 **Outcome:**  
 Delivered a fully interactive avatar customization screen with options for both randomly generated avatars and personalized initials, enhancing the user experience.
+
+---
+
+### ✅ **Task 3: Designing a Leaderboard with Custom Podium and Rank Indicators**
+
+**🗓️ Date:** May 16, 2025
+
+**Objective:**  
+Create a visually distinct leaderboard screen in Flutter featuring a podium layout for the top 3 positions, with custom avatars and SVG-based crown icons.
+
+**How I Handled It:**
+
+- ✅ Built a flexible `_buildPodiumPosition` widget supporting both rank text and SVG crown widgets.
+- ✅ Used `Stack` and `Positioned` widgets to arrange podium positions with correct layering and alignment.
+- ✅ Integrated the `flutter_svg` package to display crown icons above the first-place avatar.
+- ✅ Implemented responsive layout using `SizedBox`, `Container`, and `Positioned` to ensure proper spacing and visibility.
+- ✅ Displayed ranks 4th to 6th in a scrollable `ListView` with avatar placeholders and score/time info.
+
+**Technologies & Packages Used:**
+
+- `Flutter`
+- `flutter_svg` — for scalable vector graphics
+- Custom widget composition with `Stack` and `Positioned`
+
+> 📝 **Note:** Don't forget to run `flutter pub get` after adding these dependencies!
+
+**Outcome:**  
+Delivered a polished, user-friendly leaderboard interface with clear rank distinction, improving user engagement and visual hierarchy.
 
 ---
 
@@ -73,6 +105,8 @@ Delivered a fully interactive avatar customization screen with options for both 
 - Structuring clean, reusable code
 - Integrating third-party APIs like **DiceBear** for avatar generation
 - Building dynamic UIs with `Dropdown` and `TextField`
+- Advanced widget layout techniques using `Stack` and `Positioned`
+- Incorporating SVG assets with `flutter_svg` for crisp, scalable icons
 
 ---
 
@@ -83,6 +117,7 @@ Delivered a fully interactive avatar customization screen with options for both 
 - DiceBear API
 - path_provider
 - share_plus
+- flutter_svg
 - Material UI
 
 ---
